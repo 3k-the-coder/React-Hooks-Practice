@@ -20,6 +20,10 @@ import ComponentB from "./components/ComponentB";
 import ComponentC from "./components/ComponentC";
 import DataFetchingOne from "./components/DataFetchingOne.js";
 import DataFetchingTwo from "./components/DataFetchingTwo";
+import Counter from "./components/Counter";
+import FocusInput from "./components/FocusInput";
+import ClassTimer from "./components/ClassTimer";
+import HookTimer from "./components/HookTimer";
 
 export const UserContext = React.createContext();
 export const NameContext = React.createContext();
@@ -87,6 +91,13 @@ function App() {
         {/* <DataFetchingOne/> */}
         {/* <DataFetchingTwo/> */}
         
+          {/* ----------------------------- Use Memo -------------------------- */}
+          {/* <Counter/> */}
+
+          {/* ----------------------------- Use Ref -------------------------- */}
+          {/* <FocusInput/> */}
+          <ClassTimer/>
+          <HookTimer/>
       </div>
   );
 }
