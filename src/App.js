@@ -96,8 +96,9 @@ function App() {
 
           {/* ----------------------------- Use Ref -------------------------- */}
           {/* <FocusInput/> */}
-          <ClassTimer/>
-          <HookTimer/>
+          {/* <ClassTimer/>
+          <HookTimer/> */}
+          
       </div>
   );
 }
